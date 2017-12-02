@@ -27,7 +27,6 @@ I recommend you use this utility with an IAM policy which only allows Route 53 c
     "Version": "2012-10-17",
     "Statement": [
         {
-            "Sid": "VisualEditor0",
             "Effect": "Allow",
             "Action": [
                 "route53:GetChange",
