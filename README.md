@@ -34,7 +34,7 @@ I recommend you use this utility with an IAM policy which only allows Route 53 c
             ],
             "Resource": [
                 "arn:aws:route53:::change/*",
-                "arn:aws:route53:::hostedzone/ZPNHPW49N8WCE"
+                "arn:aws:route53:::hostedzone/$HOSTED_ZONE_ID"
             ]
         }
     ]
